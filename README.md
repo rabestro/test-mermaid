@@ -10,6 +10,6 @@ flowchart LR
 
 ```mermaid
 flowchart TD
-    A -->|7| B
-    A -->|2| C
+    A((A)) -->|7| B((B))
+    A -->|2| C((C))
 ```
