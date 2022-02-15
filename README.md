@@ -9,7 +9,7 @@ flowchart LR
 ## Simple Graph
 
 ```mermaid
-flowchart 
+flowchart LR
     A((A)) -->|7| B((B))
     A -->|2| C((C))
     B -->|3| A
