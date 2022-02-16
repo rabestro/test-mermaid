@@ -29,3 +29,16 @@ flowchart LR
     C -->|1| A
     C -->|3| B
 ```
+
+## Medium
+        
+```mermaid
+flowchart LR
+    A -->|5| B
+    B -->|5| A
+    B -->|10| C
+    C -->|5| D
+    C -->|20| B
+    D --> |5| E
+    E --> |5| B
+```
